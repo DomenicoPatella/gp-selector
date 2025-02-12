@@ -1,5 +1,18 @@
 cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.10)
+project(MyProject C)
 
+# Imposta le opzioni di compilazione in base al compilatore
+if(MSVC)
+  # Opzioni per MSVC
+  add_compile_options(/W4)
+else()
+  # Opzioni per GCC/Clang
+  add_compile_options(-Wall -Wextra -pedantic)
+endif()
+
+# Aggiungi il tuo codice sorgente
+# add_executable(MyExecutable main.c)
 # language standard
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED YES)
