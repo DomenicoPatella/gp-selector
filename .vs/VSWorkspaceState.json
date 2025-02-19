@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "build\\mac-native",
+      "build\\mac-universal",
+      "build\\windows-native"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\src"
+  ],
+  "SelectedNode": "\\src\\ExtensionWindow.h",
+  "PreviewInSolutionExplorer": true
+}
